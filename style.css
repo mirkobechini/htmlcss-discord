@@ -3,34 +3,34 @@
     border: 1px dashed white;
 }
 
-header{
+.debug header{
     background-color: blue;
 }
-main{
+.debug main{
     background-color: red;
 }
-footer{
+.debug footer{
     background-color: green;
 }
 
 
-.container{
+.debug .container{
     min-height: 100px;
     background-color: orange;
     padding: 0 10%;
 }
 
-.banner-container{
+.debug .banner-container{
     min-height: 100px;
     background-color: black;
 }
 
-.flex-card{
+.debug .flex-card{
     min-height: 100px;
     background-color: pink;
 }
 
-div>*{
+.debug div>*{
     min-height: 100px;
     width: 100px;
     background-color: blueviolet;
@@ -40,6 +40,18 @@ div>*{
 
 /* #endregion debug style*/
 
+/* #region Palette*/
+
+:root{
+    --ds-primary:#7288d9;
+    --ds-secondary:#23272a;
+    --ds-header-bg:#3161e0;
+    --ds-footer-bg:#23272a;
+    --ds-card-bg:white;
+    --ds-darkcard-bg:#f6f6f6;
+}
+
+/* #endregion Palette*/
 /* #region Common*/
 *{
     margin: 0;
@@ -76,9 +88,9 @@ html,body{
 }
 #menu{
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
 }
-
 /* #endregion Header*/
 
 /* #region Main*/
