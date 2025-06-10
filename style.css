@@ -1,0 +1,90 @@
+/* #region debug style*/
+.debug *{
+    border: 1px dashed white;
+}
+
+header{
+    background-color: blue;
+}
+main{
+    background-color: red;
+}
+footer{
+    background-color: green;
+}
+
+
+.container{
+    min-height: 100px;
+    background-color: orange;
+    padding: 0 10%;
+}
+
+.banner-container{
+    min-height: 100px;
+    background-color: black;
+}
+
+.flex-card{
+    min-height: 100px;
+    background-color: pink;
+}
+
+img{
+    min-height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+}
+section{
+    background-color: blueviolet;
+}
+
+
+/* #endregion debug style*/
+
+/* #region Common*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html,body{
+    max-width: 1680px;
+    min-height: 5076px;
+}
+
+.container{
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.flex-header{
+    display: flex;
+    justify-content: space-between;
+}
+.flex-card{
+    display: flex;
+    justify-content: center;
+}
+.reverse{
+    flex-direction: row-reverse;
+}
+
+.banner-container{
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+/* #endregion Common*/
+
+/* #region Header*/
+
+
+/* #endregion Header*/
+
+/* #region Main*/
+/* #endregion Main*/
+
+/* #region Footer*/
+/* #endregion Footer*/
