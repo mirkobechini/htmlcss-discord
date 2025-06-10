@@ -30,14 +30,12 @@ footer{
     background-color: pink;
 }
 
-img{
+div>*{
     min-height: 100px;
     width: 100px;
     background-color: blueviolet;
 }
-section{
-    background-color: blueviolet;
-}
+
 
 
 /* #endregion debug style*/
@@ -55,14 +53,10 @@ html,body{
 }
 
 .container{
-    max-width: 70%;
-    margin: 0 auto;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
-.flex-header{
-    display: flex;
-    justify-content: space-between;
-}
 .flex-card{
     display: flex;
     justify-content: center;
@@ -71,19 +65,35 @@ html,body{
     flex-direction: row-reverse;
 }
 
-.banner-container{
-    max-width: 50%;
-    margin: 0 auto;
-}
+
 
 /* #endregion Common*/
 
 /* #region Header*/
-
+.flex-header{
+    display: flex;
+    justify-content: space-between;
+}
+#menu{
+    display: flex;
+    justify-content: space-between;
+}
 
 /* #endregion Header*/
 
 /* #region Main*/
+
+.banner-container{
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.flex-card>img{
+    width: 60%;
+}
+.flex-card>section{
+    width: 40%;
+}
 /* #endregion Main*/
 
 /* #region Footer*/
