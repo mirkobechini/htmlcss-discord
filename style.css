@@ -60,7 +60,7 @@
 
 }
 html,body{
-    max-width: 1680px;
+    width: 1680px;
     min-height: 5076px;
 }
 
@@ -82,6 +82,9 @@ html,body{
 /* #endregion Common*/
 
 /* #region Header*/
+header{
+    background-color: var(--ds-header-bg);
+}
 .flex-header{
     display: flex;
     justify-content: space-between;
@@ -90,7 +93,9 @@ html,body{
     display: flex;
     align-items: center;
     gap: 20px;
+    color: var(--ds-darkcard-bg);
 }
+
 /* #endregion Header*/
 
 /* #region Main*/
