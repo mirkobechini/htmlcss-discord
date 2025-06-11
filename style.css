@@ -96,6 +96,13 @@ header{
     color: var(--ds-darkcard-bg);
 }
 
+#login{
+    background-color: var(--ds-card-bg);
+    border-style: hidden;
+    border-radius: 1rem;
+    padding: 0rem 0.5rem;
+    margin: 0.2rem 0;
+}
 /* #endregion Header*/
 
 /* #region Main*/
