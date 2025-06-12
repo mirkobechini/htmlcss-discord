@@ -119,25 +119,26 @@ p {
 /* #region Header*/
 header {
     background-color: var(--ds-header-bg);
-}
 
-.flex-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    min-height: 80px;
-}
+    .flex-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        min-height: 80px;
+    }
 
-#menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 43px;
-    color: var(--ds-darkcard-bg);
-}
 
-#login {
-    background-color: var(--ds-card-bg);
+    #menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 43px;
+        color: var(--ds-darkcard-bg);
+    }
+
+    #login {
+        background-color: var(--ds-card-bg);
+    }
 }
 
 /* #endregion Header*/
@@ -155,36 +156,37 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     color: var(--ds-darkcard-bg);
-}
 
-.banner section {
-    text-align: center;
-}
+    section {
+        text-align: center;
+    }
 
-.banner h2 {
-    line-height: 7rem;
-}
+    h2 {
+        line-height: 7rem;
+    }
 
-.banner p {
-    line-height: 1.5rem;
-    margin-bottom: 1rem;
-    padding: 0rem 14rem;
-}
+    p {
+        line-height: 1.5rem;
+        margin-bottom: 1rem;
+        padding: 0rem 14rem;
+    }
 
-#btn-download {
-    background-color: var(--ds-card-bg);
 
-}
+    #btn-download {
+        background-color: var(--ds-card-bg);
 
-#btn-openbr {
-    background-color: var(--ds-secondary);
-    color: var(--ds-darkcard-bg);
-}
+    }
 
-#arrow {
-    vertical-align: baseline;
-    font-weight: bold;
-    padding-right: 0.2rem;
+    #btn-openbr {
+        background-color: var(--ds-secondary);
+        color: var(--ds-darkcard-bg);
+    }
+
+    #arrow {
+        vertical-align: baseline;
+        font-weight: bold;
+        padding-right: 0.2rem;
+    }
 }
 
 /* #endregion Banner*/
