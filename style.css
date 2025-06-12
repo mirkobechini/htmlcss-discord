@@ -69,11 +69,11 @@ body {
 }
 
 .container {
-    width: 100%;
+    width: 1680px;
     margin: 0 auto;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding: 0px 380px;
 }
+
 
 .flex-card {
     display: flex;
@@ -135,10 +135,13 @@ header {
 
 /* #region Banner*/
 .banner-container {
-    padding: 3% 25% 10%;
+    max-width: 1680px;
+    margin: 0 auto;
+    min-height: 556px;
+    display: flex;
+    align-items: center;
     background-image: url("./img/jumbo.png");
     background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
     color: var(--ds-darkcard-bg);
 }
