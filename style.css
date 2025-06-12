@@ -71,7 +71,7 @@ body {
 .container {
     width: 1680px;
     margin: 0 auto;
-    padding: 0px 380px;
+    padding: 0px 238px;
 }
 
 .lighbox{
@@ -106,14 +106,13 @@ button {
 }
 
 h2 {
-    font-size: 42px;
-    font-weight: bold;
+    font-size: 50px;
 }
 
 p {
     padding: 2rem 0rem;
-    font-size: 18px;
-    line-height: 1.5rem;
+    font-size: 20px;
+    line-height: 1.75rem;
 }
 
 /* #endregion Common*/
@@ -191,12 +190,13 @@ header {
 /* #endregion Banner*/
 
 .flex-card>img {
-    max-width: 825px;
+    max-width: 715px;
+    
 }
 
-.descr {
-    
-    max-width: 375px;
+.descr { 
+    max-width: 370px;
+    padding-top: 110px;
 }
 
 /* #endregion Main*/
