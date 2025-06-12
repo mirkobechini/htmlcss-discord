@@ -81,6 +81,20 @@ button {
     margin: 0.2rem 0;
 }
 
+.btnwhite {
+    background-color: var(--ds-card-bg);
+}
+
+.btnprimary {
+    background-color: var(--ds-primary);
+    color: var(--ds-card-bg);
+}
+
+.btnsecondary {
+    background-color: var(--ds-secondary);
+    color: var(--ds-darkcard-bg);
+}
+
 h2 {
     font-size: 50px;
 }
@@ -91,19 +105,18 @@ p {
     line-height: 1.75rem;
 }
 
+.flex-headerfooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 80px;
+}
+
 /* #endregion Common*/
 
 /* #region Header*/
 header {
     background-color: var(--ds-header-bg);
-
-    .flex-header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        min-height: 80px;
-    }
-
 
     #menu {
         display: flex;
@@ -113,9 +126,6 @@ header {
         color: var(--ds-darkcard-bg);
     }
 
-    #login {
-        background-color: var(--ds-card-bg);
-    }
 }
 
 /* #endregion Header*/
@@ -146,17 +156,6 @@ header {
         line-height: 1.5rem;
         margin-bottom: 1rem;
         padding: 0rem 14rem;
-    }
-
-
-    #btn-download {
-        background-color: var(--ds-card-bg);
-
-    }
-
-    #btn-openbr {
-        background-color: var(--ds-secondary);
-        color: var(--ds-darkcard-bg);
     }
 
     #arrow {
@@ -203,7 +202,7 @@ header {
     background-color: var(--ds-darkcard-bg);
 }
 
-.tecnology{
+.tecnology {
     min-height: 1430px;
     display: flex;
     flex-direction: column;
@@ -212,24 +211,20 @@ header {
     gap: 45px;
     background-color: var(--ds-darkcard-bg);
 
-    .descr{
+    .descr {
         text-align: center;
     }
 
-    h3{
+    h3 {
         background-image: url("/assets/img/stars.svg");
         background-repeat: no-repeat;
         background-size: contain;
         background-position: top;
         font-size: 24px;
-        padding:  35px;
-    }
-
-    #btn-download{
-        background-color: var(--ds-primary);
-        color: var(--ds-card-bg);
+        padding: 35px;
     }
 }
+
 /*
 .topcurly{
     border-top: 50px solid transparent;
@@ -241,4 +236,50 @@ header {
 /* #endregion Main*/
 
 /* #region Footer*/
+
+footer {
+    background-color: var(--ds-secondary);
+
+    .flexfoot {
+        color: var(--ds-card-bg);
+        display: flex;
+        justify-content: space-between;
+        padding-top: 5rem;
+        min-height: 490px;
+
+
+        .talkplace {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            max-width: 315px;
+            line-height: 3rem;
+            gap: 30px;
+            h2 {
+                color: var(--ds-primary);
+
+            }
+            p {
+                padding: 0;
+            }
+
+            p>img {
+                height: 20px;
+            }
+        }
+
+        li{
+            list-style-type: none;
+            line-height: 2rem;
+        }
+        .lbl-list {
+            color: var(--ds-primary);
+            font-weight: bold;
+        }
+        
+    }
+
+
+}
+
 /* #endregion Footer*/

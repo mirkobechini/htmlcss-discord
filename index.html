@@ -11,7 +11,7 @@
 <body class="">
     <header>
         <!-- .container -->
-        <div class="container flex-header">
+        <div class="container flex-headerfooter">
 
             <img src="./assets/img/logo.svg" alt="Discord" id="logo">
             <!-- #menu -->
@@ -23,21 +23,21 @@
                 <span>Assistenza</span>
             </div>
             <!-- #login -->
-            <button id="login">Accedi</button>
+            <button id="login" class="btnwhite">Accedi</button>
         </div>
     </header>
     <main>
-         <!-- Banner -->
-          <div class="container banner">
+        <!-- Banner -->
+        <div class="container banner">
             <section>
                 <h2>Il tuo posto per parlare</h2>
                 <p>Che tu faccia parte di un club scolastico, gruppo di gamer, comunità artistica mondiale,
                     o semplicemente di un piccolo gruppo di amici che vuole passare il tempo assieme, Discord rende
                     più
                     facile chiacchierare ogni giorno e ritrovarsi più spesso.</p>
-                <button id="btn-download"><span id="arrow">&#11015;</span> Scarica per Mac</button>
+                <button id="btn-download" class="btnwhite"><span id="arrow">&#11015;</span> Scarica per Mac</button>
                 <!-- /#btn-download -->
-                <button id="btn-openbr">Apri Discord nel tuo browser</button>
+                <button id="btn-openbr" class="btnsecondary">Apri Discord nel tuo browser</button>
                 <!-- /#btn-openbr -->
             </section>
         </div>
@@ -90,24 +90,88 @@
             <section class="descr">
                 <h2>Tecnologia affidabile per tenersi in contatto</h2>
                 <p>
-                    Video e audio a bassa larenza ti faranno sentire come se foste 
-                    tutti nella stanza. Fai ciao in video, guarda gli amici giocare 
-                    in streaming, o riunitevi in una sessione di disegno con la 
+                    Video e audio a bassa larenza ti faranno sentire come se foste
+                    tutti nella stanza. Fai ciao in video, guarda gli amici giocare
+                    in streaming, o riunitevi in una sessione di disegno con la
                     condivisione schermo.
                 </p>
             </section>
             <!-- /.descr -->
-             <img src="/assets/img/item4-big.svg" alt="Videocall" id="tecnology">
-             <h3>Pronto a iniziare la tua avventura?</h3>
-             <button id="btn-download"><span id="arrow">&#11015;</span> Scarica per Mac</button>
-                <!-- /#btn-download -->
-             <!-- /#btn-download -->
+            <img src="/assets/img/item4-big.svg" alt="Videocall" id="tecnology">
+            <h3>Pronto a iniziare la tua avventura?</h3>
+            <button id="btn-download" class="btnprimary"><span id="arrow">&#11015;</span> Scarica per Mac</button>
+            <!-- /#btn-download -->
+            <!-- /#btn-download -->
         </div>
     </main>
     <footer>
-        <div class="container" id="info"></div>
+        <div class="container flexfoot" id="info">
+            <div class="talkplace">
+                <h2>Il tuo posto per parlare</h2>
+                <p><img src="/assets/img/ita.png"> italiano &downarrow;</p>
+                <p>
+                    <img src="https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/65a4fe4237b6a1c4fa714f76_x.svg"
+                        alt="twitter">
+                    <img src="https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/65a4fe42d907d27f3dead7a0_instagram.svg"
+                        alt="instagram">
+                    <img src="https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/65a4fe4173c1df8be608c8a2_facebook.svg"
+                        alt="facebook">
+                    <img src="https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/65a4fe42d907d27f3dead7ad_youtube.svg"
+                        alt="youtube">
+                </p>
+            </div>
+            <ul>
+                <li class="lbl-list">Prodotto</li>
+                <li>Scarica</li>
+                <li>Perché Discord</li>
+                <li>Nitro</li>
+                <li>Sicurezza</li>
+                <li>Assistenza</li>
+            </ul>
+            <!-- /.Prodotto -->
+            <ul>
+                <li class="lbl-list">Compagnia</li>
+                <li>Chi siamo</li>
+                <li>Lavora con noi</li>
+                <li>Marchio</li>
+                <li>Redazione</li>
+                <li>Negozio</li>
+            </ul>
+            <!-- /.Compagnia -->
+            <ul>
+                <li class="lbl-list">Risorse</li>
+                <li>Scarica</li>
+                <li>Perché Discord</li>
+                <li>Nitro</li>
+                <li>Sicurezza</li>
+                <li>Assistenza</li>
+                <li>Scarica</li>
+                <li>Perché Discord</li>
+                <li>Nitro</li>
+                <li>Sicurezza</li>
+                <li>Assistenza</li>
+                <li>Assistenza</li>
+            </ul>
+            <!-- /.Risorse -->
+            <ul>
+                <li class="lbl-list">Norme</li>
+                <li>Scarica</li>
+                <li>Perché Discord</li>
+                <li>Nitro</li>
+                <li>Sicurezza</li>
+                <li>Assistenza</li>
+            </ul>
+            <!-- /.Norme -->
+        </div>
         <!-- /#info -->
-        <div class="container" id="signin"></div>
+         <div class="container">
+            <hr>
+         </div>
+
+        <div class="container flex-headerfooter" id="signin">
+            <img src="./assets/img/logo.svg" alt="Discord" id="logo">
+            <button id="btnsignin" class="btnprimary">Registrati</button>
+        </div>
         <!-- /#signin -->
     </footer>
 </body>
