@@ -72,30 +72,7 @@ body {
     padding: 0px 240px;
 }
 
-.lighbox {
-    background-color: var(--ds-card-bg);
-}
 
-.darkbox {
-    background-color: var(--ds-darkcard-bg);
-}
-
-.flex-card {
-    max-width: 1200px;
-    margin: 0 auto;
-    min-height: 750px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: var(--ds-card-bg);
-    color: var(--ds-footer-bg);
-}
-
-
-.reverse {
-    flex-direction: row-reverse;
-    background-color: var(--ds-darkcard-bg);
-}
 
 button {
     border-style: hidden;
@@ -191,16 +168,76 @@ header {
 
 /* #endregion Banner*/
 
-.flex-card>img {
-    max-width: 715px;
-
+.lighbox {
+    background-color: var(--ds-card-bg);
 }
 
-.descr {
-    max-width: 370px;
-    padding-top: 110px;
+.darkbox {
+    background-color: var(--ds-darkcard-bg);
 }
 
+.flex-card {
+    max-width: 1200px;
+    margin: 0 auto;
+    min-height: 750px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--ds-card-bg);
+    color: var(--ds-footer-bg);
+
+    img {
+        max-width: 715px;
+
+    }
+
+    .descr {
+        max-width: 370px;
+        padding-top: 110px;
+    }
+}
+
+
+.reverse {
+    flex-direction: row-reverse;
+    background-color: var(--ds-darkcard-bg);
+}
+
+.tecnology{
+    min-height: 1430px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+    background-color: var(--ds-darkcard-bg);
+
+    .descr{
+        text-align: center;
+    }
+
+    h3{
+        background-image: url("/assets/img/stars.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: top;
+        font-size: 24px;
+        padding:  35px;
+    }
+
+    #btn-download{
+        background-color: var(--ds-primary);
+        color: var(--ds-card-bg);
+    }
+}
+/*
+.topcurly{
+    border-top: 50px solid transparent;
+    padding: 15px;
+    border-image: url(/assets/img/wave.svg) 50 stretch;
+    
+}
+*/
 /* #endregion Main*/
 
 /* #region Footer*/
