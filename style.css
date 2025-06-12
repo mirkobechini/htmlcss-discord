@@ -100,11 +100,7 @@ h2 {
     font-weight: bold;
 }
 
-p {
-    padding: 2rem 0rem;
-    font-size: 18px;
-    line-height: 1.5rem;
-}
+
 
 /* #endregion Common*/
 
@@ -116,6 +112,8 @@ header {
 .flex-header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    min-height: 80px;
 }
 
 #menu {
