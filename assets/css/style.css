@@ -17,24 +17,22 @@
 
 
 .debug .container {
-    min-height: 100px;
     background-color: orange;
-    padding: 0 10%;
+
 }
 
 .debug .banner-container {
-    min-height: 100px;
+
     background-color: black;
 }
 
 .debug .flex-card {
-    min-height: 100px;
+  
     background-color: pink;
 }
 
 .debug div>* {
-    min-height: 100px;
-    width: 100px;
+
     background-color: blueviolet;
 }
 
@@ -152,7 +150,7 @@ header {
     min-height: 548px;
     display: flex;
     align-items: center;
-    background-image: url("./img/jumbo.png");
+    background-image: url("/assets/img/jumbo.png");
     background-repeat: no-repeat;
     background-size: cover;
     color: var(--ds-darkcard-bg);
