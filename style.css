@@ -71,7 +71,7 @@ body {
 .container {
     width: 1680px;
     margin: 0 auto;
-    padding: 0px 238px;
+    padding: 0px 240px;
 }
 
 .lighbox{
@@ -131,8 +131,9 @@ header {
 
 #menu {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    gap: 20px;
+    gap: 43px;
     color: var(--ds-darkcard-bg);
 }
 
@@ -148,7 +149,7 @@ header {
 .banner-container {
     max-width: 1680px;
     margin: 0 auto;
-    min-height: 556px;
+    min-height: 548px;
     display: flex;
     align-items: center;
     background-image: url("./img/jumbo.png");
@@ -159,6 +160,9 @@ header {
 
 .banner-container section {
     text-align: center;
+}
+.banner-container>.container{
+    min-height: 275px;
 }
 
 .banner-container h2 {
