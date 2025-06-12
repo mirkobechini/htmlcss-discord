@@ -27,7 +27,7 @@
 }
 
 .debug .flex-card {
-  
+
     background-color: pink;
 }
 
@@ -72,13 +72,14 @@ body {
     padding: 0px 240px;
 }
 
-.lighbox{
+.lighbox {
     background-color: var(--ds-card-bg);
 }
 
-.darkbox{
+.darkbox {
     background-color: var(--ds-darkcard-bg);
 }
+
 .flex-card {
     max-width: 1200px;
     margin: 0 auto;
@@ -144,7 +145,7 @@ header {
 /* #region Main*/
 
 /* #region Banner*/
-.banner-container {
+.banner {
     max-width: 1680px;
     margin: 0 auto;
     min-height: 548px;
@@ -156,18 +157,15 @@ header {
     color: var(--ds-darkcard-bg);
 }
 
-.banner-container section {
+.banner section {
     text-align: center;
 }
-.banner-container>.container{
-    min-height: 275px;
-}
 
-.banner-container h2 {
+.banner h2 {
     line-height: 7rem;
 }
 
-.banner-container p {
+.banner p {
     line-height: 1.5rem;
     margin-bottom: 1rem;
     padding: 0rem 7.5rem;
@@ -193,10 +191,10 @@ header {
 
 .flex-card>img {
     max-width: 715px;
-    
+
 }
 
-.descr { 
+.descr {
     max-width: 370px;
     padding-top: 110px;
 }
