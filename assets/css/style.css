@@ -158,7 +158,7 @@ header {
         padding: 0rem 14rem;
     }
 
-    #arrow {
+    .arrow {
         vertical-align: baseline;
         font-weight: bold;
         padding-right: 0.2rem;
