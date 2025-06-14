@@ -254,13 +254,21 @@ footer {
             justify-content: flex-start;
             max-width: 315px;
             line-height: 3rem;
-            gap: 30px;
+            gap: 20px;
             h2 {
                 color: var(--ds-primary);
-
+                font-size: 45px;
             }
             p {
                 padding: 0;
+            }
+            .social{
+                display:flex;
+                justify-content: flex-start;
+                gap: 30px;
+                img{
+                    height: 25px;
+                }
             }
 
             p>img {
@@ -271,6 +279,7 @@ footer {
         li{
             list-style-type: none;
             line-height: 2rem;
+            font-size: 20px;
         }
         .lbl-list {
             color: var(--ds-primary);
@@ -278,7 +287,11 @@ footer {
         }
         
     }
-
+    .flex-headerfooter{
+        min-height: 165px;
+        align-items: flex-start;
+        padding-top: 30px;
+    }
 
 }
 
